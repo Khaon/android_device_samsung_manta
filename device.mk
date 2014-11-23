@@ -112,6 +112,10 @@ PRODUCT_PACKAGES += \
 # Torch
 PRODUCT_PACKAGES += Torch
 
+# FRANDOM
+PRODUCT_COPY_FILES += \
+   kernel/samsung/manta/frandom/00frandom:system/etc/init.d/00frandom
+
 # NFCEE access control
 ifeq ($(TARGET_BUILD_VARIANT),user)
     NFCEE_ACCESS_PATH := device/samsung/manta/nfc/nfcee_access.xml
