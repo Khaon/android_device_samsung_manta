@@ -36,7 +36,7 @@ TARGET_CPU_VARIANT := cortex-a15
 TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 
 # Define kernel config for inline building
-TARGET_KERNEL_CONFIG := cyanogenmod_manta_defconfig
+TARGET_KERNEL_CONFIG := khaon_manta_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/manta
 
 #Bluetooth
